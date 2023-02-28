@@ -1,8 +1,6 @@
 interactive_mode  = 0
-#layers = ['ГТС_Line','ГТС_Poly_cliped_32643']
-#layers = ['ЛЭП_Line', 'ЛЭП_Poly_cliped_32643']
-#layers = ['Автодороги_Line', 'Антропоген_2022_лот_1_v5']
-layers = ['subhydr_utm_line', 'subhydr_utm']
+
+layers = ['line', 'poly']
 line_layer_name = layers[0]
 poly_layer_name = layers[1]
 line_layer = QgsProject.instance().mapLayersByName(line_layer_name)
